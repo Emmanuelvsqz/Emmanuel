@@ -1,0 +1,38 @@
+int main (){
+    int Num1, Num2, ops, result;
+    printf (" Dame el primer valor ");
+    scanf ("%d",&Num1);
+    printf (" Dame el segundo valor ");
+    scanf ("%d",&Num2);
+    printf ("¿Qué operación vas a realizar");
+    printf ("\n 1.suma");
+    printf ("\n 2.resta");
+    printf ("\n 3.multiplicación");
+    printf ("\n 4.Division ");
+    
+    scanf ("%d",&ops);
+    switch (ops)
+    {
+    case 1:
+       "%d",result=Num1 + Num2;
+       printf("El resultado es %d", result);
+        break;
+    case 2:
+       "%d",result=Num1 - Num2;
+       printf("El resultado es %d", result);
+        break;
+    case 3:
+       "%d",result=Num1 * Num2;
+       printf("El resultado es %d", result);
+        break;
+    case 4:
+       "%d",result=Num1 / Num2;
+       printf("El resultado es %d", result);
+        break;
+    
+    default:
+    printf ("El valor asignado no existe");
+        break;
+    }
+    return 0;
+}
